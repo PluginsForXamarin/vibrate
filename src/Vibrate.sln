@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.13
+VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{A3A9DD8D-9E91-47BD-8ADD-E950BC0EE506}"
 	ProjectSection(SolutionItems) = preProject
@@ -19,9 +19,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vibrate.Plugin.Android", "V
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vibrate.Plugin.UWP", "Vibrate.Plugin.UWP\Vibrate.Plugin.UWP.csproj", "{CC294F69-2513-455C-9B2D-547E4C01D1A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vibrate.Plugin", "Vibrate.Plugin\Vibrate.Plugin.csproj", "{BC07E26C-ED8C-4F51-BE46-CFCFC88B597E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vibrate.Plugin", "Vibrate.Plugin\Vibrate.Plugin.csproj", "{BC07E26C-ED8C-4F51-BE46-CFCFC88B597E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vibrate.Plugin.Abstractions", "Vibrate.Plugin.Abstractions\Vibrate.Plugin.Abstractions.csproj", "{5EAEC984-0FB8-4859-8757-9E617D82FF27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vibrate.Plugin.Abstractions", "Vibrate.Plugin.Abstractions\Vibrate.Plugin.Abstractions.csproj", "{5EAEC984-0FB8-4859-8757-9E617D82FF27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vibrate.Plugin.Tizen", "Vibrate.Plugin.Tizen\Vibrate.Plugin.Tizen.csproj", "{344631EB-F8A0-4BFA-B7A7-B0E3CF75DD0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,8 +105,27 @@ Global
 		{5EAEC984-0FB8-4859-8757-9E617D82FF27}.Release|x64.Build.0 = Release|Any CPU
 		{5EAEC984-0FB8-4859-8757-9E617D82FF27}.Release|x86.ActiveCfg = Release|Any CPU
 		{5EAEC984-0FB8-4859-8757-9E617D82FF27}.Release|x86.Build.0 = Release|Any CPU
+		{344631EB-F8A0-4BFA-B7A7-B0E3CF75DD0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{344631EB-F8A0-4BFA-B7A7-B0E3CF75DD0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{344631EB-F8A0-4BFA-B7A7-B0E3CF75DD0B}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{344631EB-F8A0-4BFA-B7A7-B0E3CF75DD0B}.Debug|ARM.Build.0 = Debug|Any CPU
+		{344631EB-F8A0-4BFA-B7A7-B0E3CF75DD0B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{344631EB-F8A0-4BFA-B7A7-B0E3CF75DD0B}.Debug|x64.Build.0 = Debug|Any CPU
+		{344631EB-F8A0-4BFA-B7A7-B0E3CF75DD0B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{344631EB-F8A0-4BFA-B7A7-B0E3CF75DD0B}.Debug|x86.Build.0 = Debug|Any CPU
+		{344631EB-F8A0-4BFA-B7A7-B0E3CF75DD0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{344631EB-F8A0-4BFA-B7A7-B0E3CF75DD0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{344631EB-F8A0-4BFA-B7A7-B0E3CF75DD0B}.Release|ARM.ActiveCfg = Release|Any CPU
+		{344631EB-F8A0-4BFA-B7A7-B0E3CF75DD0B}.Release|ARM.Build.0 = Release|Any CPU
+		{344631EB-F8A0-4BFA-B7A7-B0E3CF75DD0B}.Release|x64.ActiveCfg = Release|Any CPU
+		{344631EB-F8A0-4BFA-B7A7-B0E3CF75DD0B}.Release|x64.Build.0 = Release|Any CPU
+		{344631EB-F8A0-4BFA-B7A7-B0E3CF75DD0B}.Release|x86.ActiveCfg = Release|Any CPU
+		{344631EB-F8A0-4BFA-B7A7-B0E3CF75DD0B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A31CA73-7F21-4CB0-820D-1F488CBBF969}
 	EndGlobalSection
 EndGlobal

@@ -14,6 +14,7 @@ Build status: [![Build status](https://ci.appveyor.com/api/projects/status/pm68w
 |Xamarin.iOS|iOS 7+|
 |Xamarin.Android|API 10+|
 |Windows 10 UWP|10+|
+|Tizen|4.0+|
 
 
 ### API Usage
